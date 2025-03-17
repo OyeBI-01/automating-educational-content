@@ -71,19 +71,21 @@ python educational_visualizer.py --script path/to/script.txt --output output.jso
 
 ### Example
 
-1. Create a sample educational script `sample_script.txt`:
+1. Create a sample educational script `sample.txt`:
    ```
-   Understanding Binary Search
+   Bernoulli's Principle
    
-   Binary search is an efficient algorithm for finding a target value within a sorted array.
-   
-   How it works:
-   1. Compare the target value to the middle element of the array.
-   2. If the target value is equal to the middle element, return the middle element's index.
-   3. If the target value is less than the middle element, repeat the search on the sub-array to the left.
-   4. If the target value is greater than the middle element, repeat the search on the sub-array to the right.
-   
-   Binary search has a worst-case time complexity of O(log n), which makes it much faster than linear search for large datasets.
+   Bernoulli’s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli’s equation in its usual form in the year 1752.
+   What is Bernoulli’s Principle?
+   Bernoulli’s principle states that
+   The total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.
+   Bernoulli’s principle can be derived from the principle of conservation of energy.
+   Bernoulli’s Principle Formula
+   Bernoulli’s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.
+   The formula for Bernoulli’s principle is given as follows:
+   p+12ρv2+ρgh=constant
+   Where p is the pressure exerted by the fluid, v is the velocity of the fluid, ρ is the density of the fluid and h is the height of the container.
+   Bernoulli’s equation gives great insight into the balance between pressure, velocity and elevation.
    ```
 
 2. Run the visualizer:
@@ -99,27 +101,57 @@ The system produces a JSON file with the following structure:
 
 ```json
 {
-  "original_script": "The original script content",
-  "visualized_script": "Script with visual placeholders inserted",
+  "original_script": "Bernoulli\u2019s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli\u2019s equation in its usual form in the year 1752.\nWhat is Bernoulli\u2019s Principle?\nBernoulli\u2019s principle states that\nThe total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.\nBernoulli\u2019s principle can be derived from the principle of conservation of energy.\nBernoulli\u2019s Principle Formula\nBernoulli\u2019s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.\nThe formula for Bernoulli\u2019s principle is given as follows:\np+12\u03c1v2+\u03c1gh=constant\nWhere p is the pressure exerted by the fluid, v is the velocity of the fluid, \u03c1 is the density of the fluid and h is the height of the container.\nBernoulli\u2019s equation gives great insight into the balance between pressure, velocity and elevation.\n",
+  "visualized_script": "Bernoulli\u2019s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli\u2019s equation in its usual form in the year 1752.\nWhat is Bernoulli\u2019s Principle?\nBernoulli\u2019s principle states that\nThe total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.\nBernoulli\u2019s principle can be derived from the principle of conservation of energy.\nBernoulli\u2019s Principle Formula\nBernoulli\u2019s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.\nThe formula for Bernoulli\u2019s principle is given as follows:\np+12\u03c1v2+\u03c1gh=constant\nWhere p is the pressure exerted by the fluid, v is the velocity of the fluid, \u03c1 is the density of the fluid and h is the height of the container.\nBernoulli\u2019s equation gives great insight into the balance between pressure, velocity and elevation.\n",
   "generated_visuals": [
     {
       "id": "visual_1",
-      "concept": "Binary Search Algorithm",
-      "prompt": "A step-by-step visualization of binary search...",
+      "concept": "Bernoulli's principle",
+      "prompt": "Visualize a fluid flowing through a pipe where the velocity of the fluid increases, resulting in a decrease in pressure. Show how the total energy of the fluid (kinetic energy + potential energy + pressure energy) remains constant along the flow path.",
       "type": "static",
-      "url": "https://example.com/image_url.png",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-wyB57CIiahWbZj8no6NWJv3O.png?st=2025-03-17T10%3A14%3A07Z&se=2025-03-17T12%3A14%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T15%3A51%3A36Z&ske=2025-03-17T15%3A51%3A36Z&sks=b&skv=2024-08-04&sig=DM9qMdMBYx5PqrM9O/U8IfG4sYiD4NCyrdB5yEG7pY0%3D",
       "local_path": "generated_images/visual_1.png",
-      "position": "How it works:",
+      "position": "Bernoulli's principle explanation",
       "success": true
-    }
-  ],
+    },
+    {
+      "id": "visual_2",
+      "concept": "total mechanical energy of a moving fluid",
+      "prompt": "Create an illustration showing a moving fluid within a container. Highlight the different components of the fluid's total mechanical energy including kinetic energy, pressure energy, and gravitational potential energy. Emphasize the conservation of energy in the system.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-MDSmoA8tSo0gQGNIy31WNZez.png?st=2025-03-17T10%3A14%3A24Z&se=2025-03-17T12%3A14%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T15%3A58%3A19Z&ske=2025-03-17T15%3A58%3A19Z&sks=b&skv=2024-08-04&sig=m8thRDqHdHmhjkd3PRvwQ5EOcUUKEgJL6J4lIA1jucQ%3D",
+      "local_path": "generated_images/visual_2.png",
+      "position": "Bernoulli's principle explanation",
+      "success": true
+    },
+    {
+      "id": "visual_3",
+      "concept": "Bernoulli's equation",
+      "prompt": "Visualize the derivation of Bernoulli's equation by considering a streamline flow of a fluid. Show how the sum of the dynamic pressure, pressure potential, and gravitational potential per unit mass along the streamline remains constant.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-sfqEqlCQOc6LIOpmmanaa0oZ.png?st=2025-03-17T10%3A14%3A40Z&se=2025-03-17T12%3A14%3A40Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T17%3A46%3A30Z&ske=2025-03-17T17%3A46%3A30Z&sks=b&skv=2024-08-04&sig=bSVZ/PXm/3OrfFXdDe8rKM9hrW2RlDHI8HFqOxQ0j6I%3D",
+      "local_path": "generated_images/visual_3.png",
+      "position": "Derivation of Bernoulli's equation",
+      "success": true
+    },
+    {
+      "id": "visual_4",
+      "concept": "pressure",
+      "prompt": "Create an image showing how pressure changes in a fluid flow system. Illustrate high and low pressure areas within a pipe or around an object immersed in a fluid.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-BZ9pxrLoDMkRoJVwKyLKzQm1.png?st=2025-03-17T10%3A14%3A53Z&se=2025-03-17T12%3A14%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T20%3A57%3A08Z&ske=2025-03-17T20%3A57%3A08Z&sks=b&skv=2024-08-04&sig=wEjyI2ma44CyuHGUyPcovvtQIVdCn5qc2zdoWTdppb0%3D",
+      "local_path": "generated_images/visual_4.png",
+      "position": "Interplay between pressure, velocity, and elevation",
+      "success": true
+    },
   "quality_assessment": {
-    "assessment": "The visuals effectively illustrate the key concepts...",
-    "refinement_suggestions": [
-      "Consider adding an animation for the binary search steps",
-      "The comparison visualization could be more detailed"
+    "assessment": "The visuals provided support the learning objectives well by illustrating key concepts related to Bernoulli's principle, total mechanical energy of a moving fluid, Bernoulli's equation, pressure, kinetic energy, and gravitational potential energy.",
+    "refinement_suggestions": [],
+    "missing_concepts": [
+      "Visualization showing the application of Bernoulli's principle in different scenarios such as aerodynamics or hydraulics to enhance practical understanding."
     ]
-  }
+  },
+  "refinement_suggestions": []
 }
 ```
 
