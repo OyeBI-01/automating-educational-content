@@ -1,0 +1,52 @@
+{
+  "original_script": "Bernoulli\u2019s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli\u2019s equation in its usual form in the year 1752.\nWhat is Bernoulli\u2019s Principle?\nBernoulli\u2019s principle states that\nThe total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.\nBernoulli\u2019s principle can be derived from the principle of conservation of energy.\nBernoulli\u2019s Principle Formula\nBernoulli\u2019s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.\nThe formula for Bernoulli\u2019s principle is given as follows:\np+12\u03c1v2+\u03c1gh=constant\nWhere p is the pressure exerted by the fluid, v is the velocity of the fluid, \u03c1 is the density of the fluid and h is the height of the container.\nBernoulli\u2019s equation gives great insight into the balance between pressure, velocity and elevation.\n",
+  "visualized_script": "Bernoulli\u2019s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli\u2019s equation in its usual form in the year 1752.\nWhat is Bernoulli\u2019s Principle?\nBernoulli\u2019s principle states that\nThe total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.\nBernoulli\u2019s principle can be derived from the principle of conservation of energy.\nBernoulli\u2019s Principle Formula\nBernoulli\u2019s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.\nThe formula for Bernoulli\u2019s principle is given as follows:\np+12\u03c1v2+\u03c1gh=constant\nWhere p is the pressure exerted by the fluid, v is the velocity of the fluid, \u03c1 is the density of the fluid and h is the height of the container.\nBernoulli\u2019s equation gives great insight into the balance between pressure, velocity and elevation.\n",
+  "generated_visuals": [
+    {
+      "id": "visual_1",
+      "concept": "Bernoulli's principle",
+      "prompt": "Visualize a fluid flowing through a pipe with varying diameters. Show how the pressure, velocity, and height of the fluid change as it moves through the different sections of the pipe. Highlight the concept of Bernoulli's principle at work.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-I7XtIRz9u5MrLWuw4xAlUWBd.png?st=2025-03-17T11%3A07%3A46Z&se=2025-03-17T13%3A07%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T14%3A51%3A18Z&ske=2025-03-17T14%3A51%3A18Z&sks=b&skv=2024-08-04&sig=KujOHZYBLgU8Gucd4H0MKA71egf9w%2BoyxshK6sn%2Bf40%3D",
+      "local_path": "generated_images/visual_1.png",
+      "position": "Explanation of Bernoulli's principle",
+      "success": true
+    },
+    {
+      "id": "visual_2",
+      "concept": "Total mechanical energy of moving fluid",
+      "prompt": "Create an animated sequence showing the total mechanical energy of a fluid as it flows through a system. Illustrate how the kinetic energy, gravitational potential energy, pressure, and density of the fluid change along the flow path.",
+      "type": "animated",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-CmEoOnWXLMkoTCWTggS6E8nn.png?st=2025-03-17T11%3A08%3A04Z&se=2025-03-17T13%3A08%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T17%3A46%3A29Z&ske=2025-03-17T17%3A46%3A29Z&sks=b&skv=2024-08-04&sig=gd3TUT4aa0TIGsZJWW6VxMSOTq4OLKWxVpRRxo50A88%3D",
+      "local_path": "generated_images/visual_2.png",
+      "position": "Comparison between different energy components in fluid flow",
+      "success": true
+    },
+    {
+      "id": "visual_3",
+      "concept": "Conservation of energy",
+      "prompt": "Visualize a water flow through a nozzle. Show how the conservation of energy applies to the flow, with a focus on the transformation between kinetic and potential energy. Highlight any changes in pressure and velocity as the water moves through the nozzle.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-XXupAEmw4x5yV5zVTIB7Wyby.png?st=2025-03-17T11%3A08%3A19Z&se=2025-03-17T13%3A08%3A19Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T19%3A13%3A07Z&ske=2025-03-17T19%3A13%3A07Z&sks=b&skv=2024-08-04&sig=XPYsHmtFyCLNVSmRQMwghz5COO3y%2BZmxhY15xC9Zv24%3D",
+      "local_path": "generated_images/visual_3.png",
+      "position": "Comparison between different energy components in fluid flow",
+      "success": true
+    },
+    {
+      "id": "visual_4",
+      "concept": "Bernoulli's equation",
+      "prompt": "Illustrate the derivation of Bernoulli's equation step by step. Show how the equation relates pressure, velocity, and height in a fluid flow system. Include the terms for kinetic and potential energy to demonstrate the conservation of total mechanical energy.",
+      "type": "static",
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-G6sAjMzO3wKwSinNzshEZ1gT/user-cPFTIO93uGfP24FTEZneTur7/img-jKsSajaAe6Q5N0YRoplatO5X.png?st=2025-03-17T11%3A08%3A34Z&se=2025-03-17T13%3A08%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-16T18%3A07%3A22Z&ske=2025-03-17T18%3A07%3A22Z&sks=b&skv=2024-08-04&sig=ozJWvDOtbKExxJtEAZeLBVhvx41BBIH94kK2ip4DZZQ%3D",
+      "local_path": "generated_images/visual_4.png",
+      "position": "Derivation of Bernoulli's equation",
+      "success": true
+    }
+  ],
+  "quality_assessment": {
+    "assessment": "The visuals provided strongly support the learning objectives by effectively illustrating key concepts related to Bernoulli's principle, total mechanical energy of moving fluid, conservation of energy, and Bernoulli's equation.",
+    "refinement_suggestions": [],
+    "missing_concepts": []
+  },
+  "refinement_suggestions": []
+}
