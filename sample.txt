@@ -1,0 +1,11 @@
+Bernoulli’s principle formulated by Daniel Bernoulli states that as the speed of a moving fluid increases (liquid or gas), the pressure within the fluid decreases. Although Bernoulli deduced the law, it was Leonhard Euler who derived Bernoulli’s equation in its usual form in the year 1752.
+What is Bernoulli’s Principle?
+Bernoulli’s principle states that
+The total mechanical energy of the moving fluid comprising the gravitational potential energy of elevation, the energy associated with the fluid pressure and the kinetic energy of the fluid motion, remains constant.
+Bernoulli’s principle can be derived from the principle of conservation of energy.
+Bernoulli’s Principle Formula
+Bernoulli’s equation formula is a relation between pressure, kinetic energy, and gravitational potential energy of a fluid in a container.
+The formula for Bernoulli’s principle is given as follows:
+p+12ρv2+ρgh=constant
+Where p is the pressure exerted by the fluid, v is the velocity of the fluid, ρ is the density of the fluid and h is the height of the container.
+Bernoulli’s equation gives great insight into the balance between pressure, velocity and elevation.
